@@ -15,7 +15,7 @@ import requests
 
 app = Flask(__name__)
 
-model = load_model('cinnamease-final.h5')#cinnamease_best_model.h5
+model = load_model('cinnamease-final.h5')#cinnamease-final.h5
 
 
 uri = "mongodb+srv://chamodadsilva:Chamoda12345@cluster1.kmmlzlq.mongodb.net/?retryWrites=true&w=majority&appName=Cluster1"
